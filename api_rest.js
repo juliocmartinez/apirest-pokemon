@@ -22,7 +22,7 @@ function mostrarDatos(characters) {
         let date_creation = document.createElement("p")
         let img = document.createElement("img")
         let urlEpisode = document.createElement("a")
-        urlEpisode.href=index.origin.url
+        // urlEpisode.href=index.origin.url
         urlEpisode.append("URL oficial")
         urlEpisode.style.textDecoration="none"
         urlEpisode.style.color="gray"
