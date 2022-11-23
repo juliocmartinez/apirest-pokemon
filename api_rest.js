@@ -22,8 +22,8 @@ function mostrarDatos(characters) {
         let date_creation = document.createElement("p")
         let img = document.createElement("img")
         let urlEpisode = document.createElement("a")
-        // urlEpisode.href=index.origin.url
-        urlEpisode.append("URL oficial")
+        urlEpisode.href=index.origin.url
+        urlEpisode.append("URL Pirata")
         urlEpisode.style.textDecoration="none"
         urlEpisode.style.color="gray"
         urlEpisode.style.fontWeight="bold"
