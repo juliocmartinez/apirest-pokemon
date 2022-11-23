@@ -23,6 +23,9 @@ function mostrarDatos(characters) {
     button.addEventListener('click', () => {
         let campo_entrada = document.getElementById("campo_entrada").value
         let caja = document.querySelector("#caja")
+        let result = document.querySelector("#result")
+        result.style.display="block"
+
         characters.find((algo) => {
             if (algo.name == campo_entrada) {
                 let name = document.createElement("h3")
